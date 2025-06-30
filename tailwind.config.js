@@ -21,9 +21,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'inter': ['var(--font-inter)', 'sans-serif'],
-        'poppins': ['var(--font-poppins)', 'sans-serif'],
-        'ibm-plex-mono': ['var(--font-ibm-plex-mono)', 'monospace'],
+        'inter': ['Inter', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'ibm-plex-mono': ['IBM Plex Mono', 'monospace'],
       },
       animation: {
         'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
