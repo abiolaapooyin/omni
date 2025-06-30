@@ -15,7 +15,5 @@
       "src": "/(.*)",
       "dest": "/$1"
     }
-  ],
-  "forceDeploy": true,
-  "_freshDeploy": "2024-fresh-commit"
+  ]
 }
