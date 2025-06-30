@@ -16,5 +16,6 @@
       "dest": "/$1"
     }
   ],
-  "forceDeploy": true
+  "forceDeploy": true,
+  "_deploymentTrigger": "cache-clear-2024"
 }
