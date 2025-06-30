@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  @apply bg-black text-white font-inter;
+}
+
+/* Custom styles */
+html, body, #__next {
+  height: 100%;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+/* Additional custom styles */
+.text-selection {
+  @apply bg-gradient-to-r from-green-400 to-blue-500 text-transparent bg-clip-text;
+}
+
+.custom-class {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
