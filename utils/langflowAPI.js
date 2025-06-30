@@ -30,11 +30,10 @@ export class LangflowAPI {
 
     for (let i = 0; i < retries; i++) {
       try {
-        // Use CORS proxy to bypass browser restrictions
-        const corsProxy = 'https://cors-anywhere.herokuapp.com/';
+        // Make direct API call
         const targetUrl = `${this.baseURL}?stream=false`;
         
-        const response = await fetch(corsProxy + targetUrl, {
+        const response = await fetch(targetUrl, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
