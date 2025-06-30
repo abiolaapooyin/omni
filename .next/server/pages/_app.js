@@ -5,61 +5,52 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 510:
+/***/ 16:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ App)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-Object(function webpackMissingModule() { var e = new Error("Cannot find module 'next/font/google'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ App)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+;// CONCATENATED MODULE: ./pages/_app.js
 
 
 
-const inter = Object(function webpackMissingModule() { var e = new Error("Cannot find module 'next/font/google'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())({
-    subsets: [
-        "latin"
-    ],
-    weight: [
-        "300",
-        "400",
-        "700"
-    ]
-});
-const poppins = Object(function webpackMissingModule() { var e = new Error("Cannot find module 'next/font/google'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())({
-    subsets: [
-        "latin"
-    ],
-    weight: [
-        "400",
-        "500",
-        "600",
-        "700"
-    ]
-});
-const ibmPlexMono = Object(function webpackMissingModule() { var e = new Error("Cannot find module 'next/font/google'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())({
-    subsets: [
-        "latin"
-    ],
-    weight: [
-        "400",
-        "500",
-        "600"
-    ]
-});
 function App({ Component , pageProps  }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("main", {
-        className: `${inter.className} ${inter.variable} ${poppins.variable} ${ibmPlexMono.variable}`,
-        style: {
-            "--font-inter": inter.style.fontFamily,
-            "--font-poppins": poppins.style.fontFamily,
-            "--font-ibm-plex-mono": ibmPlexMono.style.fontFamily
-        },
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
-            ...pageProps
-        })
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "preconnect",
+                        href: "https://fonts.googleapis.com"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "preconnect",
+                        href: "https://fonts.gstatic.com",
+                        crossOrigin: "true"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Poppins:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap",
+                        rel: "stylesheet"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("main", {
+                children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                    ...pageProps
+                })
+            })
+        ]
     });
 }
 
@@ -80,7 +71,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(510));
+var __webpack_exports__ = (__webpack_exec__(16));
 module.exports = __webpack_exports__;
 
 })();
