@@ -17,5 +17,5 @@
     }
   ],
   "forceDeploy": true,
-  "_deploymentTrigger": "cache-clear-2024"
+  "_freshDeploy": "2024-fresh-commit"
 }
