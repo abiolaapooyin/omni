@@ -323,6 +323,14 @@ export default function Home() {
               placeholder={placeholders[currentPlaceholder]}
               disabled={isLoading}
             />
+            <div className="flex justify-start mt-2">
+              <a 
+                href="/research" 
+                className="text-white/60 hover:text-white/80 transition-colors duration-200 text-xs font-light"
+              >
+                Researcher Mode →
+              </a>
+            </div>
           </div>
 
           {/* Thinking Indicator */}
